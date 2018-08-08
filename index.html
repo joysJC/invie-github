@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
     <title>Invie</title>
     <style media="screen">
       body {
@@ -11,12 +12,24 @@
         max-width: 100%;
         vertical-align: top;
       }
+      img#responsive {
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        img#responsive {
+          display: block;
+        }
+        img.natural {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
-    <img src="header.jpg" alt="">
-    <img src="hero.jpg" alt="">
-    <img src="acustica.jpg" alt="">
-    <img src="clasica.jpg" alt="">
+    <img id="responsive" src="invie-responsive.png" alt="">
+    <img class="natural" src="header.jpg" alt="">
+    <img class="natural" src="hero.jpg" alt="">
+    <img class="natural" src="acustica.jpg" alt="">
+    <img class="natural" src="clasica.jpg" alt="">
   </body>
 </html>
