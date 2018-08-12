@@ -1,3 +1,4 @@
-# invie-github
-Primer repositorio con git y github / Platzi
-Cambio para realizar pull en el reposritorio local
+# invie
+Las guitarras más locas
+
+http://leonidasesteban.github.io/invie-responsive/
